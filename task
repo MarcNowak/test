@@ -1,0 +1,28 @@
+$ npm run init-project
+
+> task-runner@1.0.0 init-project
+> npm install && npm run init:dirs && npm run init:files && npm run init:gitignore
+
+
+up to date, audited 1 package in 451ms
+
+found 0 vulnerabilities
+
+> task-runner@1.0.0 init:dirs
+> mkdirp sass css vendor images js
+
+
+> task-runner@1.0.0 init:files
+> touch README.md index.html sass/style.css js/script.js
+
+
+> task-runner@1.0.0 init:gitignore
+> curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  1850  100  1850    0     0   4917      0 --:--:-- --:--:-- --:--:--  4920
+
+qqq@DESKTOP-3U6QDG6 MINGW64 /d/bootcamp/test-init-project
+$ ls
+README.md  REDME.md  css/  images/  index.html  js/  package-lock.json  package.json  sass/  vendor/
