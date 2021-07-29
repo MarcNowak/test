@@ -25,4 +25,4 @@ found 0 vulnerabilities
 
 qqq@DESKTOP-3U6QDG6 MINGW64 /d/bootcamp/test-init-project
 $ ls
-README.md  REDME.md  css/  images/  index.html  js/  package-lock.json  package.json  sass/  vendor/
+README.md  css/  images/  index.html  js/  package-lock.json  package.json  sass/  vendor/
